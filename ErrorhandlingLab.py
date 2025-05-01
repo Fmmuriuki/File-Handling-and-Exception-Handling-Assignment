@@ -13,5 +13,4 @@ while True:
     except Exception as e:
         print(f"Error: {e}")
 
-        # Create test file
-echo "Hello World! This is a test." > input.txt
+    finally:
